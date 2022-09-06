@@ -1,0 +1,168 @@
+{
+  "main": {
+    "id": "5472dd1fe06a6657",
+    "type": "split",
+    "children": [
+      {
+        "id": "01ff2e08de9becc6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "tech/java/Gradle 学习笔记.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "704db1403b77228e",
+    "type": "split",
+    "children": [
+      {
+        "id": "591c638a278449d3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "04ae9dff7334959c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "01ec4d5046860e48",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Mind",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8c560ae7e176cb46",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 231.5
+  },
+  "right": {
+    "id": "0062f7ff610f003c",
+    "type": "split",
+    "children": [
+      {
+        "id": "76f62bb28973f134",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e4c8d05a8eaf3fad",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "tech/java/Gradle 学习笔记.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "218231e3d51f411f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "tech/java/Gradle 学习笔记.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "936c6a0810445028",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5463feaf50d153ce",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "tech/java/Gradle 学习笔记.md"
+              }
+            }
+          },
+          {
+            "id": "eb965eace857fd3a",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {}
+            }
+          },
+          {
+            "id": "3e494aa561aeeeb0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "a0c9d18f1bf52b00",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 6
+      }
+    ],
+    "direction": "horizontal",
+    "width": 379.5,
+    "collapsed": true
+  },
+  "active": "01ff2e08de9becc6",
+  "lastOpenFiles": [
+    "tech/未命名.md",
+    "tool/✋Hello Obsidian.md",
+    "🍔use obsidain.md",
+    "mind.md",
+    "2022-09-06.md",
+    "draw/gradle生命周期.md",
+    "tools/🙌Hello Obsidain.md",
+    "http.md",
+    "().md"
+  ]
+}

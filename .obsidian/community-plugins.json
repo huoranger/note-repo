@@ -11,6 +11,8 @@
   "mousewheel-image-zoom",
   "obsidian-hider",
   "obsidian-excalidraw-plugin",
-  "obsidian-icons-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "oz-image-plugin",
+  "obsidian-image-toolkit",
+  "privacy-glasses"
 ]

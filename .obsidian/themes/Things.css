@@ -6963,6 +6963,40 @@ settings:
 
 
 /* custom */
+
+.theme-dark .workspace::after {
+    /* background-image: url(https://w.wallhaven.cc/full/9m/wallhaven-9mjw78.png) !important; */
+    /* background-image: url(https://w.wallhaven.cc/full/x8/wallhaven-x8vx5z.jpg) !important; */
+    /* background-image: url(https://w.wallhaven.cc/full/57/wallhaven-572k81.png) !important; */
+    content: "";
+    position: absolute;
+    background-image: url(https://w.wallhaven.cc/full/6o/wallhaven-6o951w.jpg) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(50px);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+
+.theme-light .workspace::after {
+    content: "";
+    position: absolute;
+    background-image: url(https://w.wallhaven.cc/full/j3/wallhaven-j3m37y.jpg) !important;
+    /* background-image: url(https://w.wallhaven.cc/full/57/wallhaven-572k81.png) !important; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(8px);
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 .titlebar {
     border-bottom: 0px solid !important;
 }
@@ -7045,7 +7079,7 @@ table th {
     border: 1px solid rgba(255, 255, 255, 0.25) !important;
     padding: 6px 13px !important;
     font-weight: bold;
-    text-align: center;
+    text-align: center !important;
 }
 
 
@@ -7089,6 +7123,10 @@ blockquote {
     color: #bdbcbd;
 }
 
+.workspace-tab-header-container {
+    padding-left: 0px !important;
+}
+
 /* 影藏超链接的图标 */
 .external-link {
     background-image: unset !important;
@@ -7103,4 +7141,44 @@ blockquote {
 
 .admonition {
     box-shadow: unset !important;
+}
+/* 修改超链接样式 */
+.external-link {
+    padding-right: 4px !important;
+}
+
+/* 删除注脚点击跳转样式 */
+.is-flashing {
+    /* border-radius: 0px !important; */
+    box-shadow: 2px 0px 2px 6px var(--text-highlight-bg) !important;
+    /* transition: unset !important; */
+    /* background-color: unset !important; */
+}
+
+/* 修改标题的字体样式 */
+.mod-active .view-header-title {
+    font-family:'仓耳今楷01-9128 W01', 'Courier New', Courier, monospace
+}
+
+/* 修改加粗颜色 */
+body:not(.default-font-color) strong, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-1, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-2, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-3, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-4, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-5, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-6, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-1, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-2, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-3, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-4, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-5, body:not(.default-font-color) .cm-s-obsidian .cm-strong.cm-header.cm-header-6, body:not(.default-font-color) .cm-header.cm-header-3.cm-hmd-internal-link, body:not(.default-font-color) .markdown-preview-section strong, body:not(.default-font-color) .cm-s-obsidian .cm-strong {
+    color: skyblue;
+}
+
+/* 图片样式 */
+img {
+    border-radius: unset !important;
+    margin-top: 8px;
+}
+
+/* block quote */
+blockquote {
+    /* color: var(--atom-green) !important; */
+    font-weight: bold;
+}
+
+/* code color */
+.markdown-rendered code {
+    color: #c7254e !important;
+    background: unset !important;
 }

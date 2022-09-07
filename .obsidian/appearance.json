@@ -1,6 +1,9 @@
 {
   "translucency": true,
   "cssTheme": "Things",
-  "textFontFamily": "",
-  "monospaceFontFamily": "SF Mono"
+  "textFontFamily": "仓耳今楷01-9128,SF Mono,Noto Serif SC",
+  "monospaceFontFamily": "SF Mono",
+  "theme": "obsidian",
+  "interfaceFontFamily": "仓耳今楷01-9128",
+  "baseFontSize": 15
 }

@@ -76,5 +76,14 @@
       ],
       "key": "D"
     }
+  ],
+  "privacy-glasses:toggle-privacy-glasses": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "G"
+    }
   ]
 }

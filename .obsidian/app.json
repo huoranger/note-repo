@@ -5,7 +5,8 @@
   "vimMode": false,
   "defaultViewMode": "source",
   "rightToLeft": false,
-  "promptDelete": false,
+  "promptDelete": true,
   "livePreview": false,
-  "legacyEditor": false
+  "legacyEditor": false,
+  "attachmentFolderPath": "./assert"
 }

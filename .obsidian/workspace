@@ -4,15 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "98a096280358ef72",
+        "id": "86c982f5dbf215aa",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "tech/backend/java/Gradle 学习笔记.md",
-            "mode": "source",
-            "source": true
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -40,7 +36,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Mind",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -61,7 +57,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 231.5
+    "width": 247.5
   },
   "right": {
     "id": "0062f7ff610f003c",
@@ -77,7 +73,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "tech/backend/java/Gradle 学习笔记.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +89,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "tech/backend/java/Gradle 学习笔记.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -116,9 +110,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "tech/backend/java/Gradle 学习笔记.md"
-              }
+              "state": {}
             }
           },
           {
@@ -153,17 +145,17 @@
     "width": 379.5,
     "collapsed": true
   },
-  "active": "98a096280358ef72",
+  "active": "04ae9dff7334959c",
   "lastOpenFiles": [
-    "tech/backend/java/Gradle 学习笔记.md",
-    "tech/backend/java/assert/image 1.jpeg",
-    "tech/backend/java/assert/image 2.jpeg",
-    "tech/backend/java/assert/image.jpeg",
-    "tech/backend/java/assert/Pasted image 20220907133358.png",
-    "Pasted image 20220907132805.png",
-    "tech/backend/java/pics/Pasted image 20220907132932.png",
-    "🍔use obsidain.md",
+    "tech/backend/java/tool/Gradle 使用记录.md",
+    "tech/backend/java/tool/Gradle 学习笔记.md",
     "tool/✋Hello Obsidian.md",
-    "tech/未命名.md"
+    "unclass/Git Bash 美化.md",
+    "unclass/Navicat 导出表结构文件.md",
+    "tech/backend/java/redis/Redis.md",
+    "tech/frontend/vue3/vue3 笔记.md",
+    "tech/backend/java/project/IDEA 一键启动环境启动.md",
+    "tech/backend/java/project/Allin.md",
+    "🍔use obsidain.md"
   ]
 }

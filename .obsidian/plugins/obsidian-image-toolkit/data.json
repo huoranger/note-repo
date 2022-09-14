@@ -13,7 +13,7 @@
   "imageBorderToggle": false,
   "imageBorderWidth": "medium",
   "imageBorderStyle": "solid",
-  "imageBorderColor": "red",
+  "imageBorderColor": "indigo",
   "galleryNavbarToggle": true,
   "galleryNavbarDefaultColor": "#0000001A",
   "galleryNavbarHoverColor": "#0000004D",
@@ -22,5 +22,5 @@
   "moveTheImageHotkey": "NONE",
   "switchTheImageHotkey": "CTRL",
   "doubleClickToolbar": "toolbar_full_screen",
-  "viewTriggerHotkey": "CTRL"
+  "viewTriggerHotkey": "NONE"
 }

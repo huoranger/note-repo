@@ -1,9 +1,9 @@
 {
   "translucency": true,
   "cssTheme": "Things",
-  "textFontFamily": "仓耳今楷01-9128,SF Mono,Noto Serif SC",
-  "monospaceFontFamily": "SF Mono",
-  "theme": "obsidian",
-  "interfaceFontFamily": "仓耳今楷01-9128",
+  "textFontFamily": "仓耳今楷01-9128,Bookerly,Microsoft YaHei UI,SF Mono,Amstelvar XTRAmin,Noto Serif SC,Microsoft JhengHei UI",
+  "monospaceFontFamily": "SF Mono,仓耳今楷01-9128",
+  "theme": "moonstone",
+  "interfaceFontFamily": "仓耳今楷01-9128,Microsoft YaHei UI",
   "baseFontSize": 15
 }

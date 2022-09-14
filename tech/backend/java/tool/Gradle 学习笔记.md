@@ -21,15 +21,15 @@
 ## Gradle 安装
 [Spring Boot](https://docs.spring.io/spring-boot/docs/2.5.0/gradle-plugin/reference/htmlsingle/#getting-started) 官方文档明确指出,目前 SpringBoot 的 Gradle 插件需要 Gradle6.8 版本及以上，所以我们这里选择 7.x 版本。
 ![[Pasted image 20220907133358.png]]
-其中SpringBoot 与Gradle 存在版本兼容问题，Gradle 与Idea 也存在兼容问题，所以考虑到 java 程序员会使用SpringBoot，所以要选择 6.8 版本及高于 6.8 版本的Gradle,那么相应的idea 版本也要升级,不能太老哦。
+其中SpringBoot 与 Gradle 存在版本兼容问题，Gradle 与 Idea 也存在兼容问题，所以考虑到 Java 程序员会使用SpringBoot，所以要选择 6.8 版本及高于 6.8 版本的 Gradle,那么相应的 Idea 版本也要升级,不能太老哦。
 
 > 下载完成之后配置环境变量：`GRADLE_HOME` 和 `GRADLE_USER_HOME`。`GRADLE_USER_HOME` 相当于配置了 Gradle 的本地仓库位置和 Gradle Wrapper 缓存目录。
 
 
 ## 开始 Gradle 项目
 ### Gradle 项目结构
-Gradle 项目**默认目录结构和 Maven 项目的目录结构一致**,都是基于**约定大于配置** (Convention Over Configuration]。其完整项目目录结构如下所示：
-![[image.jpeg]]
+Gradle 项目**默认目录结构和 Maven 项目的目录结构一致**,都是基于**约定大于配置** (Convention Over Configuration)。其完整项目目录结构如下所示：
+![600](image.jpeg)
 
 ### Gradle 中常用指令
 | 常用 Gradle 指令     | 作用                       |
@@ -74,10 +74,12 @@ Gradle Wrapper 实际上就是对 Gradle 的一层包装，用于解决实际开
 
 **GradleWrapper 的执行流程：**
 1.  当我们第一次执行 `./gradlew build` 命令的时候，gradlew 会读取 gradle-wrapper.properties 文件的配置信息
-2.  准确的将指定版本的 Gradle 下载并解压到指定的位置(GRADLE_USER_HOME 目录下的 wrapper/dists 目录中)
-3. 构建本地缓存(GRADLE_USER_HOME 目录下的 caches 目录中),下载再使用相同版本的 Gradle 就不用下载了
+2.  准确的将指定版本的 Gradle 下载并解压到指定的位置(`GRADLE_USER_HOME` 目录下的 wrapper/dists 目录中)
+3. 构建本地缓存(`GRADLE_USER_HOME` 目录下的 caches 目录中),下载再使用相同版本的 Gradle 就不用下载了
 4. 之后执行的 `./gradlew` 所有命令都是使用指定的 Gradle 版本。
 
 **gradle-wrapper.properties 文件解读 **
-![[image 2.jpeg]]
-> 注意：前面提到的 GRALE_USER_HOME 环境变量用于这里的 Gradle Wrapper 下载的特定版本的 gradle 存储目录。如果我们没有配置过GRALE_USER_HOME 环境变量,默认在当前用户家目录下的 .gradle 文件夹中。
+![700](image2.jpeg)
+> 注意：前面提到的 GRALE_USER_HOME 环境变量用于这里的 Gradle Wrapper 下载的特定版本的 gradle 存储目录。如果我们没有配置过 GRALE_USER_HOME 环境变量,默认在当前用户家目录下的 .gradle 文件夹中。
+
+### 
